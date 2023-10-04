@@ -1,3 +1,7 @@
+body {
+    background-image: clouds.jpg;
+}
+
 h1 {
     left: 0;
     line-height: 200px;
