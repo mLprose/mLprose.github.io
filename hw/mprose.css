@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://images.pexels.com/photos/2909083/pexels-photo-2909083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+    text-align: center;
+}
+
+.content {
+    animation-name: color;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {color: rgb(255, 0, 0);}
+    25% {color: rgb(21, 255, 0);}
+    50% {color: rgb(0, 60, 255);}
+    100% {color: rgb(255, 0, 0);}
+} 
+
+@keyframes wallpaper {
+
+}
