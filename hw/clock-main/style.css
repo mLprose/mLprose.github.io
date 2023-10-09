@@ -49,7 +49,7 @@ main {
 
 .minute img {
   width:15px;
-  height:100%;
+  height:75%;
 }
 .hour img {
   width:100%;
@@ -112,25 +112,23 @@ main {
   bottom: 75%;
 }
 .hour {
-  transform-origin:top;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   border: 1px black;
   width: 150px;
-  animation-name: hourtick 60s infinite;
+  animation: hourtick 3600s infinite;
   animation-timing-function: linear;
   transform-origin:left;
 }
 .minute {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  
   border: 1px black;
-  height: 200px;
+  height: 50%;
   animation: minutetick 60s infinite;
   animation-timing-function: linear;
   transform-origin:top;
+  position: absolute;
 }
 
 @keyframes hourtick {
