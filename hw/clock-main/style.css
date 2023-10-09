@@ -16,12 +16,12 @@ body {
 }
 .minute {
   position: absolute;
-  top: 38%;
+  top: 50%;
 }
 
 .hour {
   position: absolute;
-  left: 38%;
+  left: 50%;
 }
 
 main {
@@ -38,16 +38,21 @@ main {
 
 }
 .clock {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure full viewport height */
   position: relative;
   width:100%;
+  height:100%;
 }
 
 .minute img {
-  width:20px;
-  height:50%;
+  width:15px;
+  height:100%;
 }
 .hour img {
-  width:50%;
+  width:100%;
   height:20px;
 }
 .one {
@@ -107,29 +112,41 @@ main {
   bottom: 75%;
 }
 .hour {
+  transform-origin:top;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   border: 1px black;
-  width: 48%;
-  animation-name: hourtick;
+  width: 150px;
+  animation-name: hourtick 60s infinite;
+  animation-timing-function: linear;
+  transform-origin:left;
 }
 .minute {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   border: 1px black;
-  height: 48%;
-  animation-name: minutetick;
-  animation-duration: 5s;
+  height: 200px;
+  animation: minutetick 60s infinite;
+  animation-timing-function: linear;
+  transform-origin:top;
 }
 
-@animation hourtick {
-  from {}
-  to {}
+@keyframes hourtick {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
-@animation minutetick {
-  from {transform: rotate(0 0 0 0deg);}
-  to {transform: rotate(0 0 0 90deg);}
+@keyframes minutetick {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }
