@@ -16,14 +16,12 @@ body {
 }
 .minute {
   position: absolute;
-  top: 48%;
-  left: 48%;
+  top: 38%;
 }
 
 .hour {
   position: absolute;
-  top: 48%;
-  left: 48%;
+  left: 38%;
 }
 
 main {
@@ -96,7 +94,7 @@ main {
 }
 .ten {
   position: absolute;
-  right: 80%;
+  right: 78%;
   bottom: 59%;
 }
 .eleven {
@@ -109,12 +107,29 @@ main {
   bottom: 75%;
 }
 .hour {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   border: 1px black;
-  position: absolute;
-  width: 50%;
+  width: 48%;
+  animation-name: hourtick;
 }
 .minute {
-  position: absolute;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   border: 1px black;
-  height: 50%;
+  height: 48%;
+  animation-name: minutetick;
+  animation-duration: 5s;
+}
+
+@animation hourtick {
+  from {}
+  to {}
+}
+
+@animation minutetick {
+  from {transform: rotate(0 0 0 0deg);}
+  to {transform: rotate(0 0 0 90deg);}
 }
