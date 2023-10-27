@@ -1,6 +1,21 @@
+/*Color Scheme Hexcodes:
+beige: #E8D9C2
+green: #004224
+orange: #D4AB75
+brown: #4F2617
+blue: #054D59
+*/
+
+@font-face {
+    font-family: sitka;
+    src: url(mLprose.github.io\assets\sitka-small-652.ttf);
+}
+
 body {
     background-color: #e8d9c2;
 }
+
+/*header and footer insist on being wider than window, need to fix*/
 
 header {
     display: flex;
@@ -9,12 +24,37 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     border: 1px solid black;
-    color: #4f2617;
+    color: #E8D9C2;
+    background-color: #004224;
+    width: 100%;
+}
+
+.circle {
+    height: 500px;
+    width: 500px;
+    background-color: #004224;
+    border-radius: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid black;
+    color: #E8D9C2;
+    background-color: #004224;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
     width: 15%;
     text-align: center;
+    font-family: sitka;
 }
 
 p {
