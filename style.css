@@ -1,62 +1,80 @@
-/*Color Scheme Hexcodes:
-beige: #E8D9C2
-green: #004224
-orange: #D4AB75
-brown: #4F2617
-blue: #054D59
-*/
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8D9C2;
+  }
+  
 
-@font-face {
-    font-family: sitka;
-    src: url(mLprose.github.io\assets\sitka-small-652.ttf);
-}
-
-body {
-    background-color: #e8d9c2;
-}
-
-/*header and footer insist on being wider than window, need to fix*/
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: 1px solid black;
-    color: #E8D9C2;
+  .topnav {
+    overflow: hidden;
     background-color: #004224;
+    position: static;
+    top: 0;
     width: 100%;
-}
+    text-align: center;
+  }
+  
 
-.circle {
-    height: 500px;
-    width: 500px;
-    background-color: #004224;
-    border-radius: 100%;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: 1px solid black;
+  .topnav a {
+    float: left;
+    display: block;
     color: #E8D9C2;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #054D59;
+  }
+  
+
+  .content {
+    background-color: #E8D9C2;
+    position: relative;
+  }
+
+  .content img{
+    width: 100%;
+    position: block;
+
+  }
+
+  .centered-content {
+    background-color: #D4AB75;
+    margin: 0%;
+    margin-top: 0%;
+    height:100%;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+  
+  
+
+  .footer {
+    overflow: hidden;
     background-color: #004224;
-    position: fixed;
-    left: 0;
+    padding: 10px;
+    position: static;
     bottom: 0;
     width: 100%;
-}
-
-h1 {
-    width: 15%;
     text-align: center;
-    font-family: sitka;
-}
+  }
 
-p {
+  .footer a{
+    float: left;
+    display: block;
+    color: #E8D9C2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
-}
+  }
