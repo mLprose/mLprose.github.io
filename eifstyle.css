@@ -1,0 +1,176 @@
+header {
+  
+  width: 100%;
+  background-color: #E8D9C2; /* Header color */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+nav a {
+  color: #004224; /* Navigation link color */
+  text-decoration: none;
+  font-family: "Times New Roman", serif; /* Times New Roman font */
+  font-weight: bold;
+  flex-grow: 1; /* Evenly space the navigation links */
+  text-align: center; /* Center the text within each link */
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+}
+
+/* HOMEPAGE */
+
+#heroimage {
+  width: 100%;
+  position: relative;
+
+}
+
+#clifface {
+  height: 808px;
+  width: 100%;
+  fill:#004224;
+}
+
+#clifface img {
+  width: 100%;
+}
+
+#herotext {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 36px;
+  color: #E8D9C2;
+}
+
+#herocaption {
+  background-color: #054D59;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #004224;
+  padding: 25px;
+}
+
+#lavapool {
+  width: 443px;
+  height: 332px;
+  border: 5px solid white;
+  /* Add styling for the "lavapool" div as needed */
+}
+
+#captiontext {
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#captiontext p {
+  color: #E8D9C2;
+  border: 5px solid white;
+  /* Add styling for the text boxes as needed */
+}
+
+.captiontexttitle {
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+#inproduction {
+  width: 100%;
+  background-color: #E8D9C2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#inproductiontitle {
+  font-size: 36px;
+  color: #4F2617;
+}
+
+#geojournalthumbnail, #planetoftheplatesthumbnail {
+  width: 85%;
+  padding: 25px;
+  margin-top: 15px;
+  background-color: #004224;
+  text-align: center;
+}
+
+#geojournalthumbnail p, #planetoftheplatesthumbnail p {
+  
+  color: #E8D9C2;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.subtitle.italicized {
+  font-style: italic;
+}
+
+#previews {
+  width: 100%;
+  background-color: #004224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+#previewstitle {
+  width: 100%;
+  text-align: center;
+}
+
+#previewstitle p {
+  margin: 0;
+  color: #fff; /* White text color */
+}
+
+#carousel {
+  width: 85%;
+  height: 350px;
+  background-color: #fff;
+}
+
+#carouselcaption {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+#carouselcaption p {
+  margin: 0;
+  font-size: 36px;
+  color: #D4AB75;
+}
+
+footer {
+  background-color: #E8D9C2;
+  width: 100%;
+}
+
