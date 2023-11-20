@@ -1,18 +1,13 @@
 header {
-  
-  width: 100%;
-  background-color: #E8D9C2; /* Header color */
+  background-color: #004224; /* Header color */
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
+footer { 
+  background-color: #004224;
 }
 
 nav a {
-  color: #004224; /* Navigation link color */
+  color: #E8D9C2; /* Navigation link color */
   text-decoration: none;
   font-family: "Times New Roman", serif; /* Times New Roman font */
   font-weight: bold;
@@ -23,11 +18,6 @@ nav a {
 a {
   text-decoration: none;
 }
-
-main {
-  flex: 1;
-}
-
 /* HOMEPAGE */
 
 #heroimage {
