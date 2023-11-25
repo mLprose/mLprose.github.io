@@ -1,18 +1,124 @@
 header {
-    background-color: #004224; /* Header color */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: #004224; 
+    padding: 24px;
+  }
+
+  header a {
+    color: #E8D9C2;
+    font-weight: bold;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8D9C2;
+    margin: 0px;
+    flex-wrap: wrap;
+  }
+
+  .about {
+    width: 75%;
+    background-color: #054D59;
+    flex-wrap: wrap;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 136px;
+  }
+
+  .abouttitle {
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+    width: 65%;
+    top: 10%;
+    position: absolute;
+    color: #054D59;
+    background-color: #D4AB75;
+    padding: 3%;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .aboutbg {
+    background-color: #054D59;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 18px;
+  }
+
+  .aboutbg div {
+    flex: 0 0 calc(50% - 10px);
+    padding: 12px;
+    box-sizing: border-box;
+  }
+
+  .aboutbg img {
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+    padding: 12px;
+    object-fit: cover;
+  }
+
+  .diane {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .diane p {
+    color: #E8D9C2;
+    margin: 2%;
+  }
+
+  .doug p {
+    color: #E8D9C2;
+    margin: 2%;
+  }
+
+  .title {
+    font-weight: bolder;
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .bodycopy {
+    font-weight: normal;
   }
 
   footer { 
-    background-color: #004224;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: #004224; 
+    padding: 24px;
   }
 
-  nav a {
-    color: #E8D9C2; /* Navigation link color */
-    text-decoration: none;
-    font-family: "Times New Roman", serif; /* Times New Roman font */
-    font-weight: bold;
-    flex-grow: 1; /* Evenly space the navigation links */
-    text-align: center; /* Center the text within each link */
+  footer a {
+    color: #E8D9C2;
+    font-size: 12px;
+  }
+
+  footer p {
+    color: #E8D9C2;
+    font-size: 12px;
   }
   
   a {

@@ -1,24 +1,4 @@
-header {
-  background-color: #004224; /* Header color */
-}
 
-footer { 
-  background-color: #004224;
-}
-
-nav a {
-  color: #E8D9C2; /* Navigation link color */
-  text-decoration: none;
-  font-family: "Times New Roman", serif; /* Times New Roman font */
-  font-weight: bold;
-  flex-grow: 1; /* Evenly space the navigation links */
-  text-align: center; /* Center the text within each link */
-}
-
-a {
-  text-decoration: none;
-}
-/* HOMEPAGE */
 
 #heroimage {
   width: 100%;
@@ -158,9 +138,3 @@ a {
   font-size: 36px;
   color: #D4AB75;
 }
-
-footer {
-  background-color: #E8D9C2;
-  width: 100%;
-}
-
