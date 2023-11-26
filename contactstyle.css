@@ -1,0 +1,49 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: #4F2617;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #E8D9C2;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #E8D9C2;
+    border-radius: 5px;
+    resize: none; /* Disable textarea resizing */
+  }
+  
+  textarea {
+    height: 100px; /* Set the initial height for the textarea */
+    overflow: auto; /* Enable vertical scrolling for the textarea */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #D4AB75;
+    color: #4F2617;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+  ::placeholder {
+    color: #4F2617;
+  }
+  
