@@ -15,9 +15,9 @@ body {
   background-color: #E8D9C2;
 }
 
-footer { 
-  background-color: #004224;
-}
+  body {
+    margin: 0px;
+  }
 
 nav {
   width: 100%;
@@ -45,7 +45,19 @@ main {
   flex: 1;
 }
 
+  footer a {
+    color: #E8D9C2;
+    font-size: 12px;
+  }
 
+  footer p {
+    color: #E8D9C2;
+    font-size: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
 .hero-image {
   position: relative;
   width: 100%;
@@ -110,5 +122,3 @@ main {
 .bottom-box {
   height: 100px;
 }
-
-/* Additional styles for positioning and spacing */
