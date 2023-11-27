@@ -1,0 +1,35 @@
+.EIFfilms {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #004224;
+    height: auto;
+    padding: 2.5%;
+    flex-wrap: wrap;
+}
+
+.EIFfilms a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 6.25%;
+}
+
+.filmthumbnail {
+    width: 135px;
+    height: 171.5px;
+    background-color: #E8D9C2;
+    
+}
+
+.thumbnailtitle {
+    color: #E8D9C2;
+    margin-top: 10%;
+    align-items: center;
+}
+/* BLURAY: 171.5mm x 135mm = 270 x 343 = 135 x 171.5*/

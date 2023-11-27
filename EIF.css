@@ -1,0 +1,162 @@
+
+.heroimage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.clifface {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  fill:#4F2617;
+  height: 100vh
+
+}
+
+.clifface img {
+  position: absolute;
+  width: 100%;
+  flex: 1;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.herogradient {
+  position: absolute;
+  background: rgb(232,217,194);
+  background: linear-gradient(0deg, rgba(232,217,194,1) 0%, rgba(232,217,194,0) 50%);
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.herotext {
+ 
+  font-size: 36px;
+  color: #E8D9C2;
+}
+
+.herocaption {
+  background-color: #4F2617;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #4F2617;
+  padding: 25px;
+}
+
+.lavapool {
+  width: 443px;
+  height: 332px;
+  border: 5px solid white;
+  /* Add styling for the "lavapool" div as needed */
+}
+
+.captiontext {
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.captiontext p {
+  color: #E8D9C2;
+  border: 5px solid white;
+  /* Add styling for the text boxes as needed */
+}
+
+.captiontexttitle {
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.inproduction {
+  width: 100%;
+  background-color: #E8D9C2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.inproductiontitle {
+  font-size: 36px;
+  color: .4F2617;
+}
+
+.geojournalthumbnail, .planetoftheplatesthumbnail {
+  width: 85%;
+  padding: 25px;
+  margin-top: 15px;
+  background-color: #4F2617;
+  text-align: center;
+}
+
+.geojournalthumbnail p, .planetoftheplatesthumbnail p {
+  
+  color: #E8D9C2;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.subtitle.italicized {
+  font-style: italic;
+}
+
+.previews {
+  width: 85%;
+  background-color: #4F2617;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.previewstitle {
+  width: 100%;
+  text-align: center;
+}
+
+.previewstitle p {
+  margin: 0;
+  color: #fff; /* White text color */
+}
+
+.carousel {
+  width: 85%;
+  height: 350px;
+  background-color: #fff;
+}
+
+.carouselcaption {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.carouselcaption p {
+  margin: 0;
+  font-size: 36px;
+  color: #D4AB75;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
