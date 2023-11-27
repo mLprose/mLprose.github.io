@@ -6,7 +6,7 @@
     justify-content: flex-start;
   }
   
-  #mediaplayer {
+  .mediaplayer {
     width: 100%;
     height: calc(100vh - 100px); /* 100vh - height of header and footer */
     background-color: #E8D9C2;
@@ -20,24 +20,32 @@
     margin: 20px 0;
 }
 
-.bold-italic {
-    font-size: 25px;
-    font-weight: bold;
-    font-style: italic;
-    color: #004224;
-    text-align: center;
-}
 
-#playscreen {
+.playscreen {
     width: 100%;
     height: 50px;
 }
 
-#playscreencaption {
+.playscreencaption {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
 
-    
+.bold-italic {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #004224;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .circle {

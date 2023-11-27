@@ -1,30 +1,47 @@
 
 
-#heroimage {
-  width: 100%;
+.heroimage {
   position: relative;
+  width: 100%;
+  height: 100vh;
 
 }
 
-#clifface {
-  height: 808px;
+.clifface {
+  position: relative;
+  height: 800px;
   width: 100%;
   fill:#004224;
+  height: 100vh
+
 }
 
-#clifface img {
-  width: 100%;
-}
-
-#herotext {
+.clifface img {
   position: absolute;
-  bottom: 0;
+  width: 100%;
+  flex: 1;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.herogradient {
+  position: absolute;
+  background: rgb(232,217,194);
+  background: linear-gradient(0deg, rgba(232,217,194,1) 0%, rgba(232,217,194,0) 50%);
+  box-sizing: border-box;
+  top: 0;
   left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.herotext {
+ 
   font-size: 36px;
   color: #E8D9C2;
 }
 
-#herocaption {
+.herocaption {
   background-color: #054D59;
   width: 100%;
   display: flex;
@@ -34,21 +51,21 @@
   padding: 25px;
 }
 
-#lavapool {
+.lavapool {
   width: 443px;
   height: 332px;
   border: 5px solid white;
   /* Add styling for the "lavapool" div as needed */
 }
 
-#captiontext {
+.captiontext {
   height: 332px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-#captiontext p {
+.captiontext p {
   color: #E8D9C2;
   border: 5px solid white;
   /* Add styling for the text boxes as needed */
@@ -66,7 +83,7 @@
   font-size: 12px;
 }
 
-#inproduction {
+.inproduction {
   width: 100%;
   background-color: #E8D9C2;
   display: flex;
@@ -75,12 +92,12 @@
   padding: 20px;
 }
 
-#inproductiontitle {
+.inproductiontitle {
   font-size: 36px;
-  color: #4F2617;
+  color: .4F2617;
 }
 
-#geojournalthumbnail, #planetoftheplatesthumbnail {
+.geojournalthumbnail, .planetoftheplatesthumbnail {
   width: 85%;
   padding: 25px;
   margin-top: 15px;
@@ -88,7 +105,7 @@
   text-align: center;
 }
 
-#geojournalthumbnail p, #planetoftheplatesthumbnail p {
+.geojournalthumbnail p, .planetoftheplatesthumbnail p {
   
   color: #E8D9C2;
   margin: 10px 0;
@@ -102,8 +119,8 @@
   font-style: italic;
 }
 
-#previews {
-  width: 100%;
+.previews {
+  width: 85%;
   background-color: #004224;
   display: flex;
   flex-direction: column;
@@ -111,30 +128,41 @@
   padding: 25px;
 }
 
-#previewstitle {
+.previewstitle {
   width: 100%;
   text-align: center;
 }
 
-#previewstitle p {
+.previewstitle p {
   margin: 0;
   color: #fff; /* White text color */
 }
 
-#carousel {
+.carousel {
   width: 85%;
   height: 350px;
   background-color: #fff;
 }
 
-#carouselcaption {
+.carouselcaption {
   width: 100%;
   padding: 0;
   text-align: center;
 }
 
-#carouselcaption p {
+.carouselcaption p {
   margin: 0;
   font-size: 36px;
   color: #D4AB75;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

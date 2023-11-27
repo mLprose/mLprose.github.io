@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5%;
+    outline: 2px solid #000;
+    box-sizing: border-box;
+    height: auto;
+  }
+  
+  .child {
+    flex: 1;
+    outline: 2px solid #000;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    padding: 2.5%;
+    margin: 2.5%;
+    height: auto;
+  }
+
+  h1 {
+    margin: 1.25%;
+  }
+
+  h2 {
+    margin: 1.25%;
+  }
+
+  p {
+    text-align: left;
+    margin: 1.25%;
+  }
+
+  /* Existing styles for parent, left child, and right child */
+
+/* Existing styles for parent, left child, and right child */
+
+.groupimagechild {
+    flex: 1;
+    outline: 2px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5%;
+    height: auto;
+  }
+  
+  .groupimagechild img {
+    max-width: 100%; /* Make the image fill the width of the child without exceeding its original size */
+    max-height: 100%; /* Make the image fill the height of the child without exceeding its original size */
+    object-fit: contain; /* Maintain aspect ratio while fitting the child */
+    overflow: hidden; /* Hide any content that overflows the child */
+  }
+  
+  .singleimageparent {
+    margin: 2.5%;
+    padding: 2.5%;
+    outline: 2px solid #000;
+    box-sizing: border-box;
+    width: 100%; /* Make the parent as wide as its respective parent */
+    height: 100px;
+    overflow: hidden; /* Hide any content that overflows the parent */
+  }
+  
+  .singleimageparent img {
+    height: 100%; /* Make the image as tall as the parent */
+    width: auto; /* Allow the width to adjust based on the height while maintaining aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio while covering the parent */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally within the parent */
+  }
