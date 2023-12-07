@@ -5,12 +5,13 @@
   align-items: center;
   background-color: #E8D9C2; 
   padding: 24px;
+  text-decoration: none;
 }
 
 .EIFheader a {
   color: #4F2617;
   font-weight: bold;
-
+  text-decoration: none;
 }
 
 body {
