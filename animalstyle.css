@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #567033; /* Optional background color for the body */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(165, 112, 42);; /* Optional background color for the header */
+    color: gold;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Lilita One', sans-serif;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 60% 1fr; /* Three columns, the middle one taking 60% of the available space */
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    align-items: center;
+    margin-left: 40px;
+    margin-left: 40px;
+    color: aliceblue;
+}
+
+#main-image {
+    width: 100%; /* Main image now spans the entire width of its container */
+    height: auto;
+    grid-column: 2 / 3; /* Main image is centered in the middle column */
+    outline: 15px groove rgb(126, 85, 31);
+}
+
+.side-heading-left {
+    grid-column: 1 / 2; /* The left heading spans from the first to the second column */
+    
+}
+
+.side-heading-right {
+    grid-column: 3 / 4; /* The right heading spans from the third to the fourth column */
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    grid-column: 1 / -1; /* The paragraph spans all columns to remain centered underneath the main image */
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.animalname {
+    max-width: 800px;
+    margin: 20px auto;
+    grid-column: 1 / -1; /* The paragraph spans all columns to remain centered underneath the main image */
+}
+
+h2 {
+    background-color: gold;
+    padding: 15px;
+    color: rgb(117, 100, 0);
+    margin-bottom: 30px;
+}
