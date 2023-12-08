@@ -39,16 +39,28 @@ a:hover {
 
 h1 {
   color:white;
-  font-size: 60px;
+  font-size: 120px;
   text-align: center;
-  
+  font-family: 'Dhurjati', sans-serif;
 }
 
 h1, h2, h3 {
-  margin-top:0;
+  margin-top: 5%;
   color: white;
   text-align: center;
+  width: 100%;
+  font-family: 'Dhurjati', sans-serif;
 
+}
+
+h3 {
+  color: black;
+  text-align: left;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 85px;
 }
 ul {
   list-style: none;
@@ -65,6 +77,8 @@ ul li::before {
 
 .cards {
   display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .card {
   flex:33.3%;
@@ -88,6 +102,7 @@ ul li::before {
   color: white;
   text-decoration:none;
   padding: 8px 12px;
+  margin-left: 0px;
 }
 .button:hover { 
   border-color: black;
@@ -112,4 +127,22 @@ ul li::before {
 }
 .resources div:last-child {
   margin-right:0;
+}
+
+a.button {
+  margin: 0%;
+  padding: 2%;
+  font-size: 30px;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.card {
+  flex-basis: calc(33.33% - 10px); /* Adjust the percentage based on your design */
+  margin: 5px; /* Adjust margin as needed */
+  box-sizing: border-box; /* Ensure padding and border don't affect the item size */
+}
+
+p {
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  font-size: 24px;
 }
