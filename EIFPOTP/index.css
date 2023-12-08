@@ -173,8 +173,12 @@
   gap: var(--gap-3xs);
   cursor: pointer;
 }
-.film-reel-desc,
-.film-reel-title,
+.film-reel-desc {
+  color: bisque;
+}
+.film-reel-title {
+  color: bisque;
+}
 .previews {
   font-family: var(--font-sitka);
   font-size: var(--font-size-45xl);
@@ -271,4 +275,27 @@
   width: 100%;
   height: 4128px;
   justify-content: space-between;
+}
+
+
+.geojournalthumbnail, .planetoftheplatesthumbnail {
+  width: 85%;
+  padding: 25px;
+  margin-top: 15px;
+  background-color: #4F2617;
+  text-align: center;
+}
+
+.geojournalthumbnail p, .planetoftheplatesthumbnail p {
+  
+  color: #E8D9C2;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.subtitle.italicized {
+  font-style: italic;
 }
