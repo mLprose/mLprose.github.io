@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Earth Images Foundation</title>
+
+    <meta name="description" content="Earth Images Foundation home" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Californian FB";
+        src: url("CALIFR.TTF");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Californian FB";
+        src: url("CALIFB.TTF");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Sitka";
+        src: url("assets/sitka-small-599.ttf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="eif-home">
+      <header class="navbar">
+        <div class="navbar-elements">
+          <img class="eif-logo-icon" alt="" src="./public/eif-logo.svg" />
+
+          <b class="home">HOME</b>
+          <b class="films" id="fILMSText">FILMS</b>
+          <b class="films" id="dOUGSGEOLOGYJOURNAL">
+            <p class="dougs">DOUG’S</p>
+            <p class="dougs">GEOLOGY</p>
+            <p class="dougs">JOURNAL</p>
+          </b>
+          <b class="films" id="pLANETOFTHE">
+            <p class="dougs">PLANET</p>
+            <p class="dougs">OF THE</p>
+            <p class="dougs">PLATES</p>
+          </b>
+          <b class="films" id="aBOUTText">ABOUT</b>
+          <b class="films" id="cONTACTText">CONTACT</b>
+        </div>
+      </header>
+      <main class="body" id="body">
+        <section class="hero" id="hero">
+          <img
+            class="ophdron1b-1-icon"
+            alt=""
+            src="./public/ophdron1b-1@2x.png"
+          />
+
+          <h2 class="documenting-our-planet">Documenting our planet</h2>
+        </section>
+        <section class="desc-header">
+          <img
+            class="img-4228-1-icon"
+            alt=""
+            src="./public/img-4228-1@2x.png"
+          />
+
+          <textarea class="desc-text"> </textarea>
+        </section>
+        <section class="previews">
+          <h1 class="in-production">IN PRODUCTION</h1>
+          <div class="dougs-geo-journal-banner" id="dougsGeoJournalBanner">
+            <textarea class="banner-text"> </textarea>
+          </div>
+          <div class="planet-of-the-plates-banner" id="planetOfThePlatesBanner">
+            <img
+              class="dsc00386-1-icon"
+              alt=""
+              src="./public/dsc00386-1@2x.png"
+            />
+
+            <textarea class="banner-text1"> </textarea>
+          </div>
+        </section>
+        <section class="carousel">
+          <textarea class="film-reel-title"> </textarea>
+          <textarea class="film-reel-desc"> </textarea>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="navbar-elements1">
+          <img class="eif-logo-icon" alt="" src="./public/eif-logo.svg" />
+
+          <b class="home">HOME</b>
+          <b class="films" id="fILMSText1">FILMS</b>
+          <b class="films" id="dOUGSGEOLOGYJOURNAL1">
+            <p class="dougs">DOUG’S</p>
+            <p class="dougs">GEOLOGY</p>
+            <p class="dougs">JOURNAL</p>
+          </b>
+          <b class="films" id="pLANETOFTHE1">
+            <p class="dougs">PLANET</p>
+            <p class="dougs">OF THE</p>
+            <p class="dougs">PLATES</p>
+          </b>
+          <b class="films" id="aBOUTText1">ABOUT</b>
+          <b class="films" id="cONTACTText1">CONTACT</b>
+        </div>
+        <b class="earth-images-foundation"
+          >Earth Images Foundation Copyright © 2023</b
+        >
+      </footer>
+    </div>
+
+    <script>
+      var fILMSText = document.getElementById("fILMSText");
+      if (fILMSText) {
+        fILMSText.addEventListener("click", function (e) {
+          window.location.href = "./films.html";
+        });
+      }
+      
+      var dOUGSGEOLOGYJOURNAL = document.getElementById("dOUGSGEOLOGYJOURNAL");
+      if (dOUGSGEOLOGYJOURNAL) {
+        dOUGSGEOLOGYJOURNAL.addEventListener("click", function (e) {
+          window.location.href = "./dougs-geology-journal.html";
+        });
+      }
+      
+      var pLANETOFTHE = document.getElementById("pLANETOFTHE");
+      if (pLANETOFTHE) {
+        pLANETOFTHE.addEventListener("click", function (e) {
+          window.location.href = "./p-o-t-p-home.html";
+        });
+      }
+      
+      var aBOUTText = document.getElementById("aBOUTText");
+      if (aBOUTText) {
+        aBOUTText.addEventListener("click", function (e) {
+          window.location.href = "./e-i-f-about.html";
+        });
+      }
+      
+      var cONTACTText = document.getElementById("cONTACTText");
+      if (cONTACTText) {
+        cONTACTText.addEventListener("click", function (e) {
+          window.location.href = "./e-i-f-contact.html";
+        });
+      }
+      
+      var dougsGeoJournalBanner = document.getElementById("dougsGeoJournalBanner");
+      if (dougsGeoJournalBanner) {
+        dougsGeoJournalBanner.addEventListener("click", function (e) {
+          window.location.href = "./dougs-geology-journal.html";
+        });
+      }
+      
+      var planetOfThePlatesBanner = document.getElementById(
+        "planetOfThePlatesBanner"
+      );
+      if (planetOfThePlatesBanner) {
+        planetOfThePlatesBanner.addEventListener("click", function (e) {
+          window.location.href = "./p-o-t-p-home.html";
+        });
+      }
+      
+      var fILMSText1 = document.getElementById("fILMSText1");
+      if (fILMSText1) {
+        fILMSText1.addEventListener("click", function (e) {
+          window.location.href = "./films.html";
+        });
+      }
+      
+      var dOUGSGEOLOGYJOURNAL1 = document.getElementById("dOUGSGEOLOGYJOURNAL1");
+      if (dOUGSGEOLOGYJOURNAL1) {
+        dOUGSGEOLOGYJOURNAL1.addEventListener("click", function (e) {
+          window.location.href = "./dougs-geology-journal.html";
+        });
+      }
+      
+      var pLANETOFTHE1 = document.getElementById("pLANETOFTHE1");
+      if (pLANETOFTHE1) {
+        pLANETOFTHE1.addEventListener("click", function (e) {
+          window.location.href = "./p-o-t-p-home.html";
+        });
+      }
+      
+      var aBOUTText1 = document.getElementById("aBOUTText1");
+      if (aBOUTText1) {
+        aBOUTText1.addEventListener("click", function (e) {
+          window.location.href = "./e-i-f-about.html";
+        });
+      }
+      
+      var cONTACTText1 = document.getElementById("cONTACTText1");
+      if (cONTACTText1) {
+        cONTACTText1.addEventListener("click", function (e) {
+          window.location.href = "./e-i-f-contact.html";
+        });
+      }
+      </script>
+  </body>
+</html>

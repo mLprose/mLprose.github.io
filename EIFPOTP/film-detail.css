@@ -1,0 +1,321 @@
+.eif-logo-icon18 {
+  width: 71.5px;
+  height: 84px;
+}
+.eif-logo-icon18,
+.home18 {
+  position: relative;
+}
+.dougs14 {
+  margin: 0;
+}
+.navbar-elements18,
+.navbar9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-elements18 {
+  width: 1240px;
+}
+.navbar9 {
+  background-color: var(--color-antiquewhite-100);
+  padding: var(--padding-31xl) var(--padding-81xl);
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-californian-fb);
+}
+.film-bg-icon,
+.frame,
+.navbar9 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.film-bg-icon {
+  position: relative;
+  max-width: 100%;
+  height: 655px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.disc-icon {
+  position: relative;
+  width: 340px;
+  height: 464px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.climate-of-the {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.covertitle,
+.frame1,
+.frame2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.covertitle {
+  background-color: transparent;
+  height: 110px;
+  flex-direction: row;
+  align-items: center;
+}
+.frame1,
+.frame2 {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -56px;
+}
+.frame1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -559px;
+}
+.cover-detail,
+.preview-title {
+  box-sizing: border-box;
+  display: flex;
+}
+.cover-detail {
+  width: 1440px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 89px 123px;
+  background-image: url(./public/cover-detail@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.preview-title {
+  background-color: var(--color-burlywood-100);
+  border: 5px solid var(--color-saddlebrown);
+  width: 375px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.previewplaceholder-icon {
+  position: relative;
+  width: 855px;
+  height: 514px;
+  object-fit: cover;
+}
+.lorem-ipsum-dolor8 {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 128px;
+}
+.preview-desc {
+  background-color: var(--color-burlywood-100);
+  border: 5px solid var(--color-saddlebrown);
+  box-sizing: border-box;
+  width: 779px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl) 34px;
+  gap: 46px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.watch-now1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 15px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.entry-field,
+.preview {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.entry-field {
+  border-radius: var(--br-49xl);
+  background-color: var(--color-darkslategray-100);
+  border: 4px solid var(--color-darkslategray-100);
+  width: 482px;
+  flex-direction: row;
+  padding: var(--padding-17xl) var(--padding-19xl);
+  font-size: var(--font-size-21xl);
+  color: var(--color-burlywood-100);
+}
+.preview {
+  width: 1440px;
+  flex-direction: column;
+  padding: 66px 101px;
+  gap: 51px;
+  background-image: url(./public/preview@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-45xl);
+  color: var(--color-saddlebrown);
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 685.5px;
+  height: 805px;
+  overflow: hidden;
+}
+.pages-child {
+  top: 90.3px;
+  left: 179.4px;
+  background-color: var(--color-antiquewhite-100);
+  transform: rotate(15deg);
+  transform-origin: 0 0;
+}
+.pages-child,
+.pages-inner,
+.pages-item {
+  position: absolute;
+  width: 524px;
+  height: 693px;
+  overflow: hidden;
+}
+.pages-item {
+  top: 117.3px;
+  left: 145.9px;
+  background-color: var(--color-burlywood-100);
+  transform: rotate(7.12deg);
+  transform-origin: 0 0;
+}
+.pages-inner {
+  top: 146.3px;
+  left: 81px;
+  background-color: var(--color-antiquewhite-100);
+}
+.pages {
+  position: relative;
+  width: 685px;
+  height: 975px;
+}
+.educational-materials2,
+.subheading {
+  margin: 0;
+  position: relative;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.subheading {
+  font-size: 36px;
+  font-style: italic;
+}
+.lorem-ipsum-dolor10 {
+  align-self: stretch;
+  position: relative;
+  text-align: left;
+}
+.educational-materials1 {
+  background-color: var(--color-gray);
+  width: 569px;
+  height: 620px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.educational-materials {
+  width: 1440px;
+  height: 974px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-19xl) 57px;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.body9,
+.educational-materials,
+.navbar-elements19 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body9 {
+  margin: 0 !important;
+  position: absolute;
+  top: 184px;
+  left: 0;
+  height: 2872px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  z-index: 1;
+  text-align: center;
+  font-size: 85px;
+  color: var(--color-antiquewhite-100);
+  font-family: var(--font-sitka);
+}
+.navbar-elements19 {
+  width: 884.5px;
+  flex-direction: row;
+}
+.earth-images-foundation9 {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.film-detail,
+.footer9 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer9 {
+  align-self: stretch;
+  height: 400px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  padding: var(--padding-20xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  background-image: url(./public/footer@3x.png);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-californian-fb);
+}
+.film-detail {
+  position: relative;
+  width: 100%;
+  height: 3448px;
+  justify-content: space-between;
+  background-image: url(./public/film-detail@3x.png);
+}
